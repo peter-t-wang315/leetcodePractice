@@ -32,15 +32,9 @@ def computeArea(ax1, ay1, ax2, ay2, bx1, by1, bx2, by2):
     
     square_a=(ax2-ax1)*(ay2-ay1)
     square_b=(bx2-bx1)*(by2-by1)
-
-    if overlap_area==0:
-        return square_a+square_b
-    elif overlap_area==square_a:
-        return square_b
-    elif overlap_area==square_b:
-        return square_a
     
     return square_a+square_b-overlap_area
+
 
 
 if __name__ == "__main__":
