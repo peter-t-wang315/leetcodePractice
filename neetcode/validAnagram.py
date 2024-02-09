@@ -1,8 +1,8 @@
 # __Big O Time__
-# 
+# O(n) n being the size of s/t
 
 # __Space Complexity__
-# 
+# O(n) n being the size of s/t
 
 def isAnagram(s, t):
   if len(s) != len(t):
